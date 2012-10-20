@@ -24,7 +24,6 @@ public class Prueba {
 
 
 	public static void main(String[] args) throws ParseException {
-		
 		int i = 15;
 		int count =0;
 		while(i!=0){
