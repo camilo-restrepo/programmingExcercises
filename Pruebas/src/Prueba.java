@@ -24,16 +24,19 @@ public class Prueba {
 
 
 	public static void main(String[] args) throws ParseException {
-		int i = 15;
-		int count =0;
-		while(i!=0){
-			System.out.println("i: "+i);
-			System.out.println("i-1:" +(i-1));
-			i=i&(i-1);
-			System.out.println(i);
-			count++;
-		}
-		System.out.println("c: "+count);
+		String s = "a";
+		System.out.println(s.contains("A"));
+		
+//		int i = 15;
+//		int count =0;
+//		while(i!=0){
+//			System.out.println("i: "+i);
+//			System.out.println("i-1:" +(i-1));
+//			i=i&(i-1);
+//			System.out.println(i);
+//			count++;
+//		}
+//		System.out.println("c: "+count);
 
 		//		String rgString = "^[\\w-_]+(\\.[\\w]+)*@[\\w]+(\\.[\\w]+)*\\.[a-z]{2,4}$";
 		//		CharSequence inputStr = "c@u..co";
